@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#brick_wrapper{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    height: auto;    
+}
+.brick{
+    display: inline-block;
+    width: 7%;
+    height: 25px;
+    background: rgba(250, 77, 77, 0.842);
+    border: .5px solid rgb(63, 63, 63);    
+    margin-bottom: -4px;    
+}
+.brick-half{
+    display: inline-block;
+    width: 3.5%;
+    height: 25px;
+    background: rgba(250, 77, 77, 0.842);
+    border: .5px solid rgb(63, 63, 63);    
+    margin-bottom: -4px;    
+}
+#build-btn{
+    width: 100%;
+    padding: 5px;
+    background: chartreuse;
+}
